@@ -42,14 +42,14 @@ function init() {
 
 	const produto3 = new ProdutoPerecivel(3, 'Leite', 10, 2.50, new Date('2023/12/20'));
 	catalogo.adicionarProduto(produto3);
-  console.log(produto3.checarProdutos())
+    console.log(produto3.checarProdutos())
 
-  console.log(catalogo.listarProdutos())
+  	console.log(catalogo.listarProdutos())
 
  
 	console.log(verificarEstoque(produto1, 2));
 	console.log(verificarEstoque(produto2, 3));
-  console.log(verificarEstoque(produto3, 3));
+  	console.log(verificarEstoque(produto3, 3));
 
 	console.log('Itens no carrinho:');
 	carrinho.mostrarItens().map((item) => {
